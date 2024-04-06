@@ -4,21 +4,35 @@
     android:id="@+id/mainConstraint"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="8dp"
-        app:cardCornerRadius="30dp">
-
-    <ImageView
-        android:id="@+id/man2"
-        android:layout_width="150dp"
-        android:layout_height="145dp"
-        android:src="@drawable/man2"
+        app:cardCornerRadius="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/man2"
+                android:layout_width="150dp"
+                android:layout_height="145dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/man2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:layout_width="133dp"
+                android:layout_height="52dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/shape" />
+        </FrameLayout>
+
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
