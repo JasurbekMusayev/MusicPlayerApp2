@@ -27,10 +27,31 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <View
+                android:id="@+id/blur"
                 android:layout_width="133dp"
                 android:layout_height="52dp"
                 android:layout_gravity="bottom|center"
                 android:background="@drawable/shape" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out of My Mine"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/metropolis_semi_bold"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="20dp"/>
+            <TextView
+                android:id="@+id/artist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dance"
+                android:textColor="#9EFFFFFF"
+                android:textSize="10sp"
+                android:layout_marginTop="120dp"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/metropolis_medium"/>
         </FrameLayout>
 
     </androidx.cardview.widget.CardView>

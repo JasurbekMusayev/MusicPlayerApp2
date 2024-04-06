@@ -20,7 +20,9 @@ class MainActivity : AppCompatActivity() {
         binding.recycler.adapter = myadapter
 
         val list = listOf<MyKotlinModel>(
-            MyKotlinModel(R.drawable.man2)
+            MyKotlinModel(R.drawable.man2,"Out of My Mine","Dance"),
+            MyKotlinModel(R.drawable.electronic,"Freak In Me","Electronic"),
+            MyKotlinModel(R.drawable.lover,"Lover Boy","Dance")
 
         )
 

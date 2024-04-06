@@ -1,5 +1,3 @@
-
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -16,13 +14,13 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
         notifyDataSetChanged()
     }
 
-    inner class MyViewHolder(var itemContactBinding: ItemMusicPlayerBinding) :
-        RecyclerView.ViewHolder(itemContactBinding.root) {
+    inner class MyViewHolder(var ItemMusicPlayerBinding: ItemMusicPlayerBinding) :
+        RecyclerView.ViewHolder(ItemMusicPlayerBinding.root) {
         fun onBind(model: MyKotlinModel) {
-            itemContactBinding.man2.setImageResource(model.image)
-//            itemContactBinding.name.text = model.name
-//            itemContactBinding.artistname
-//                .text = model.artistname
+            ItemMusicPlayerBinding.man2.setImageResource(model.image)
+            ItemMusicPlayerBinding.title.text = model.tittle
+            ItemMusicPlayerBinding.artistName
+                .text = model.artistname
         }
     }
 
