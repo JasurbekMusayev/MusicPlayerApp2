@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="podcast_seekbar">#3300AFFF</color>
+    <color name="lightblue">#8ED5FB</color>
+    <color name="blue">#717DFB</color>
+    <color name="nawyblue">#2C2CFB</color>
 </resources>
