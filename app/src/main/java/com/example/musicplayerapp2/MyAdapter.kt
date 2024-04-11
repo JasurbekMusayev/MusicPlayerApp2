@@ -17,10 +17,10 @@ class MyAdapter : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
     inner class MyViewHolder(var ItemMusicPlayerBinding: ItemMusicPlayerBinding) :
         RecyclerView.ViewHolder(ItemMusicPlayerBinding.root) {
         fun onBind(model: MyKotlinModel) {
-            ItemMusicPlayerBinding.man2.setImageResource(model.image)
-            ItemMusicPlayerBinding.title.text = model.tittle
+            ItemMusicPlayerBinding.man2.setImageResource(model.image2)
+            ItemMusicPlayerBinding.title.text = model.tittle2
             ItemMusicPlayerBinding.artistName
-                .text = model.artistname
+                .text = model.artistname2
         }
     }
 
