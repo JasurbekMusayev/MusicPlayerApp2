@@ -19,12 +19,6 @@ class MainActivity : AppCompatActivity() {
         myadapter = MyAdapter()
         binding.recycler.adapter = myadapter
 
-        val list = listOf<MyKotlinModel>(
-            MyKotlinModel(R.drawable.man2)
-
-        )
-
-        myadapter.setList(list)
     }
 
 }
