@@ -6,4 +6,5 @@
     <color name="lightblue">#8ED5FB</color>
     <color name="blue">#717DFB</color>
     <color name="nawyblue">#2C2CFB</color>
+    <color name="progress_main">#9570FF</color>
 </resources>
