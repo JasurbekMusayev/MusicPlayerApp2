@@ -2,8 +2,9 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MusicPlayerApp2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:navigationBarColor">#FFFFFF</item>
     </style>
+
 
 </resources>
