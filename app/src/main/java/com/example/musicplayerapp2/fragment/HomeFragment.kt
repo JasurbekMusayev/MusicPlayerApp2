@@ -222,7 +222,7 @@ class HomeFragment : Fragment(), View.OnClickListener, RecyclerAdapter.SongClick
         if (mPlayerAdapter != null && mPlayerAdapter!!.isMediaPlayer()) {
 
             mPlayerAdapter!!.onResumeActivity()
-            updatePlayingInfo(true, false)
+            updatePlayingInfo(true, startPlay = false)
         }
     }
 

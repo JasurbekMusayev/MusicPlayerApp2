@@ -26,13 +26,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val navHostFragment =
-            supportFragmentManager.findFragmentById(R.id.fragmentMain) as NavHostFragment
+            supportFragmentManager.findFragmentById(R.id.fragmentMainn) as NavHostFragment
 
         navController = navHostFragment.findNavController()
 
         val serviceIntent = Intent(this, PlayerServiceNew2::class.java)
+
         serviceIntent.action = PlayerServiceNew2.STARTFOREGROUND_ACTION
         startService(serviceIntent)
-
     }
+
 }
